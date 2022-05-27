@@ -4,22 +4,28 @@ import org.openqa.selenium.By;
 
 public class Locators {
 
-    public static class pages {
-        //1st Test
-        //press Sign In
-        public static By headerLogIn = By.xpath("//*[@data-uia = 'header-login-link']");
+    public static class Netflix {
 
-        //login page email or phone number
-        public static By inputValueEmail = By.xpath("//*[@id = 'id_userLoginId']");
+        public static class Login {
 
-        //login page password
-        public static By inputValuePassword = By.xpath("//*[@id = 'id_password']");
+            //1st Test
+            //press Sign In
+            public static By headerLogIn = By.xpath("//*[@data-uia = 'header-login-link']");
 
-        //checkbox Remember me
-        public static By checkbox = By.xpath("//*[@class = 'login-remember-me-label-text']");
+            //login page email or phone number
+            public static By inputValueEmail = By.xpath("//*[@id = 'id_userLoginId']");
 
-        //press Sign In
-        public static By buttonSignIn = By.xpath("//*[@class = 'login-remember-me-label-text']");
+            //login page password
+            public static By inputValuePassword = By.xpath("//*[@id = 'id_password']");
+
+            //checkbox Remember me
+            public static By checkbox = By.xpath("//*[@class = 'login-remember-me-label-text']");
+
+            //press Sign In
+            public static By buttonSignIn = By.xpath("//*[@class = 'login-remember-me-label-text']");
+            public static By buttonReject = By.xpath("//*[@class = 'btn-reject btn-red']");
+        }
+
 
 
     }

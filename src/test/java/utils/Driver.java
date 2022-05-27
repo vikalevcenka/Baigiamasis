@@ -6,7 +6,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class Driver {
-    public static WebElement findElement;
+
     private static WebDriver driver;
 
     public static void setDriver() {
