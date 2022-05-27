@@ -22,7 +22,7 @@ public class Locators {
             public static By checkbox = By.xpath("//*[@class = 'login-remember-me-label-text']");
 
             //press Sign In
-            public static By buttonSignIn = By.xpath("//*[@class = 'login-remember-me-label-text']");
+            public static By buttonSignIn = By.xpath("//*[@data-uia = 'login-submit-button']");
             public static By buttonReject = By.xpath("//*[@class = 'btn-reject btn-red']");
         }
 
